@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>contact</key>
+		<array>
+			<dict>
+				<key>address</key>
+				<string>asjadishdfsfdkfdksfdkl</string>
+				<key>email</key>
+				<string>asdsadsd@gmail.com</string>
+				<key>phone</key>
+				<string>555-123-2345</string>
+				<key>avatar</key>
+				<string>bob</string>
+				<key>name</key>
+				<string>Bob</string>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>alkdj iweur ehks nckkd</string>
+				<key>email</key>
+				<string>jsjksdks@gmail.com</string>
+				<key>phone</key>
+				<string>555-324-2345</string>
+				<key>avatar</key>
+				<string>block</string>
+				<key>name</key>
+				<string>Block</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>RECENT</string>
+	</dict>
+	<dict>
+		<key>contact</key>
+		<array>
+			<dict>
+				<key>address</key>
+				<string>kajsdlj asjdad akdwej</string>
+				<key>email</key>
+				<string>igeksd@hotmail.com</string>
+				<key>phone</key>
+				<string>555-876-1234</string>
+				<key>avatar</key>
+				<string>asre</string>
+				<key>name</key>
+				<string>Asre</string>
+			</dict>
+			<dict>
+				<key>address</key>
+				<string>aldjsdkfj kasdnksfk skfjksdhfkhdsfh kh dskfjdkj </string>
+				<key>email</key>
+				<string>jsasakwe@gmail.com</string>
+				<key>phone</key>
+				<string>555-926-7294</string>
+				<key>avatar</key>
+				<string>anis</string>
+				<key>name</key>
+				<string>Anis</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>FRIENDS</string>
+	</dict>
+</array>
+</plist>
