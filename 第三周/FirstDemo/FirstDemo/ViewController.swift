@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         pageControl.layer.anchorPoint = CGPoint(x: 0.5, y: 0.5)
         pageControl.layer.position = CGPoint(x: collectionView.bounds.size.width * 0.5, y: 100 + collectionView.bounds.size.height + 10)
         pageControl.currentPage = 0
-        pageControl.numberOfPages = 2
+        pageControl.numberOfPages = 2 /// 这里是写死的一个数据，在不同屏幕尺寸下显示会有点小问题，看效果就好~ :]
         pageControl.currentPageIndicatorTintColor = .darkGray
         pageControl.pageIndicatorTintColor = .gray
         view.addSubview(pageControl)
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 12
+        return 20
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -59,6 +59,5 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
         let offsetX = scrollView.contentOffset.x
         let index = offsetX / UIScreen.main.bounds.size.width
         pageCon.currentPage = Int(index)
-//        print("--\(offsetX)")
     }
 }
