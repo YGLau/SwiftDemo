@@ -17,7 +17,7 @@
 		A4AC86601FAD82D30005A6DE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC865E1FAD82D30005A6DE /* CollectionViewCell.swift */; };
 		A4AC86611FAD82D30005A6DE /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4AC865F1FAD82D30005A6DE /* CollectionViewCell.xib */; };
 		A4AC86641FAD853D0005A6DE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC86621FAD853D0005A6DE /* SecondViewController.swift */; };
-		A4AC86651FAD853D0005A6DE /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4AC86631FAD853D0005A6DE /* SecondViewController.xib */; };
+		A4AC86671FAD98190005A6DE /* TransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC86661FAD98190005A6DE /* TransitionDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		A4AC865E1FAD82D30005A6DE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		A4AC865F1FAD82D30005A6DE /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		A4AC86621FAD853D0005A6DE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		A4AC86631FAD853D0005A6DE /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		A4AC86661FAD98190005A6DE /* TransitionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				A4AC865E1FAD82D30005A6DE /* CollectionViewCell.swift */,
 				A4AC865F1FAD82D30005A6DE /* CollectionViewCell.xib */,
 				A4AC86621FAD853D0005A6DE /* SecondViewController.swift */,
-				A4AC86631FAD853D0005A6DE /* SecondViewController.xib */,
+				A4AC86661FAD98190005A6DE /* TransitionDelegate.swift */,
 			);
 			path = FiveDemo;
 			sourceTree = "<group>";
@@ -248,7 +248,6 @@
 				A4AC86381FAD82230005A6DE /* Assets.xcassets in Resources */,
 				A4AC86611FAD82D30005A6DE /* CollectionViewCell.xib in Resources */,
 				A4AC86361FAD82230005A6DE /* Main.storyboard in Resources */,
-				A4AC86651FAD853D0005A6DE /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4AC86641FAD853D0005A6DE /* SecondViewController.swift in Sources */,
+				A4AC86671FAD98190005A6DE /* TransitionDelegate.swift in Sources */,
 				A4AC86331FAD82230005A6DE /* ViewController.swift in Sources */,
 				A4AC86311FAD82230005A6DE /* AppDelegate.swift in Sources */,
 				A4AC86601FAD82D30005A6DE /* CollectionViewCell.swift in Sources */,
