@@ -28,8 +28,6 @@ class ViewController: UIViewController {
         setupSnowMountain()
         // 绘制草地
         setupLawn()
-        // 画大地
-        setupLand()
         // 黄色轨道
         drawYellowTrack()
         // 绿色轨道
@@ -38,6 +36,8 @@ class ViewController: UIViewController {
         setupTrees()
         // 画云朵
         setupClouds()
+        // 画大地 遮住底部
+        setupLand()
         // 开车
         driveCar(carImageName: "otherTrain", trackLayer: yellow, animationDuration: 5.0, startTime: CACurrentMediaTime())
         driveCar(carImageName: "train", trackLayer: green, animationDuration: 6.0, startTime: CACurrentMediaTime() + 1)
